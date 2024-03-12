@@ -1,9 +1,9 @@
 # En el archivo main.py
 
 from datetime import datetime
-from Camar import Camar
-from Registro import Registro
-from AlgoritmoFacial import AlgoritmoFacial
+from Camara import Camar
+from RegistroEntradaSalida import Registro
+from AlgoritmoDeReconocimiento import AlgoritmoFacial
 
 def dar_de_alta(registro):
     nombre_usuario = input("Ingrese el nombre del usuario: ")
